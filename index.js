@@ -14,6 +14,10 @@ app.get("/contact", (req, res) => {
   res.send("Contact me at");
 });
 
+app.get("/hobbies", (req, res) => {
+  res.send("I love to play cricket");
+});
+
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
